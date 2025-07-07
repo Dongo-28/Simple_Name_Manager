@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Name Manager</title>
+
+    <!-- liga o CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <!-- SEARCH -->
+    <input id="search" class="input" placeholder="Search" />
+
+    <!-- ADD -->
+    <div>
+      <input id="nameInput" class="input" placeholder="Enter name" />
+      <button id="addBtn" class="btn btn-add">ADD</button>
+    </div>
+
+    <!-- LIST -->
+    <div id="list" class="card"></div>
+
+    <!-- liga o JavaScript -->
+    <script src="script.js"></script>
   </body>
 </html>
