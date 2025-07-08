@@ -26,11 +26,11 @@ Uma aplicação simples em React que permite adicionar, editar, remover e pesqui
 
 2. Instala as dependências:
 
-npm install
+- npm install
 
 3. Inicia a aplicação:
 
-npm start
+- npm start
 
 4. Acede à aplicação em: http://localhost:3000
 
@@ -41,6 +41,37 @@ npm start
 
     - O .gitignore está configurado para ignorar ficheiros desnecessários.
 
+---
+
+## 🛠 Atualizações
+
+- **07-07-2025**
+A interface foi recentemente atualizada para apresentar um layout mais limpo, com os campos de pesquisa e inserção de nomes melhor organizados horizontalmente.
+
+![Interface atualizada](./screenshot.png)
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+SIMPLE-NAME-MANAGER/
+├── src/
+│   ├── components/
+│   │   └── NameList.js
+│   └── App.jsx
+├── public/
+│       ├── index.js
+│       ├── App.js
+│       └── styles.css
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
+-----
 👨‍💻 Autor
+
 Amadeu Dongo Rocha
 
+-----
